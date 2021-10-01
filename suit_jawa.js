@@ -25,7 +25,7 @@ while(tanya) {
         hasil = "SERI";
     }
 
-    else if(player == "gajah") {
+    else if(player == "gajah" || player == "Gajah") {
         // if(comp == "orang") {
         //     hasil = "MENANG"
         // }
@@ -35,7 +35,7 @@ while(tanya) {
         hasil = (comp == "orang") ? "MENANG" : "KALAH"; // ini adalah ringkasan dari if diatas  
     }
 
-    else if(player == "semut") {
+    else if(player == "semut" || player == "Semut") {
         // if(comp == "orang") {
         //     hasil = "KALAH"
         // }
@@ -45,7 +45,7 @@ while(tanya) {
         hasil = (comp == "orang") ? "KALAH" : "MENANG"; // ini adalah ringkasan dari if diatas  
     }
 
-    else if(player == "orang") {
+    else if(player == "orang" || player == "Orang") {
         // if(comp == "gajah") {
         //     hasil == "KALAH"
         // }
