@@ -33,36 +33,36 @@ while(tanya == true) {
 
     else if(player == "gajah" || player == "Gajah") {
         if(comp == "orang") {
-            hasil = "MENANG"
+            hasil = "MENANG";
         }
 
         else if(comp == "semut") {
-            hasil = "KALAH"
+            hasil = "KALAH";
         }
         // hasil = (comp == "orang") ? "MENANG" : "KALAH"; // ini adalah ringkasan dari if diatas  
     }
 
     else if(player == "semut" || player == "Semut") {
         if(comp == "orang") {
-            hasil = "KALAH"
+            hasil = "KALAH";
         }
         else if(comp == "gajah") {
-            hasil = "MENANG"
+            hasil = "MENANG";
         }
         // hasil = (comp == "orang") ? "KALAH" : "MENANG"; // ini adalah ringkasan dari if diatas  
     }
 
     else if(player == "orang" || player == "Orang") {
         if(comp == "gajah") {
-            hasil == "KALAH"
+            hasil == "KALAH";
         }
         else if(player == "semut") {
-            hasil = 'MENANG'
+            hasil = "MENANG";
         }
         // hasil = (comp == gajah) ? "KALAH" : "Menang"; // ini adalah ringkasan dari if diatas  
     }
     else {
-        hasil = "INVALID"
+        hasil = "INVALID";
     }
     // tampilkan hasilnya
     alert("Kamu memilih " + player + " dan komputer memilih " + comp + "\nMaka hasilnya : Kamu " + hasil);
@@ -70,4 +70,4 @@ while(tanya == true) {
 
 }
 
-alert("Terimakasih sudah bermain")
+alert("Terimakasih sudah bermain");
