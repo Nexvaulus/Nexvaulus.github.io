@@ -56,7 +56,7 @@ while(tanya == true) {
         if(comp == "gajah") {
             hasil = "KALAH";
         }
-        else if(player == "semut") {
+        else if(comp == "semut") {
             hasil = "MENANG";
         }
         // hasil = (comp == gajah) ? "KALAH" : "Menang"; // ini adalah ringkasan dari if diatas  
