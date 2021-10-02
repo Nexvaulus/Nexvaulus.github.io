@@ -54,7 +54,7 @@ while(tanya == true) {
 
     else if(player == "orang" || player == "Orang") {
         if(comp == "gajah") {
-            hasil == "KALAH";
+            hasil = "KALAH";
         }
         else if(player == "semut") {
             hasil = "MENANG";
