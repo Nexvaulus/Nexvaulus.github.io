@@ -1,12 +1,8 @@
 // menetapkan nyawa
 
-nyawa = 11;
-while(nyawa > 10) {
-var nyawa = prompt("Mau berapa nyawa? (1 - 10)");
-}
-
-var habis = 0;  
-var lagi = true;
+var nyawa = 3;
+    habis = 0;  
+    lagi = true;
 
 // menangkap angka random dari comp
 function angkaRandom(min, max) {
@@ -31,29 +27,27 @@ while(lagi == true) {
     else if(player < x) {
       alert("Angka anda terlalu kecil");
       nyawa--;
-      alert("Nyawa anda sisa " + nyawa)  
+      alert("Nyawa anda sisa " + nyawa);  
     }
-
     else if(player > x) {
       alert("Angka anda terlalu besar");
       nyawa--;
-      alert("Nyawa anda sisa " + nyawa)  
+      alert("Nyawa anda sisa " + nyawa);
     }
     else if(player == false) {
-      nyawa - habis;
+      nyawa = habis;
     }
 
     else {
-      alert("invalid")
+      alert("invalid");
     }
-
-
+    
     if(nyawa == 0) {
-      lagi = confirm("Main lagi?")
+      lagi = confirm("Main lagi?");
       if(lagi == true) {
-        nyawa + 3
+        nyawa + 3;
       }
     }
   }
 }
-alert("Terimakasih sudah bermain")
+alert("Terimakasih sudah bermain");
