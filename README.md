@@ -1,3 +1,5 @@
-# Latihan JavaScript
-Repo ini dibuat untuk menyimpan source code dari latihan latihan membuat program dengan javascript
+# Repo ini adalah final exam untuk html css dan js
+
+Repo ini dibuat sebagai wadah untuk landing page portfolio setelah selesai belajar css
+
 
