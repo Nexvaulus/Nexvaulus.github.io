@@ -10,11 +10,9 @@ var comp = angkaRandom(1, 10);
 
 if(comp < 2) {
     comp = "gajah";
-} 
-else if(comp >= 2 && comp < 7) {
+} else if(comp >= 2 && comp < 7) {
     comp = "semut";
-} 
-else {
+} else {
     comp = "orang";
 }
 
@@ -64,4 +62,16 @@ pilihan.forEach(function(i) {
             info.innerHTML = hasil;
         }, 1500);
     });
+});
+
+const center = document.querySelector('.center');
+const iMerah = center.querySelector('input[name=iMerah]');
+const iHijau = center.querySelector('input[name=iHijau]');
+const iBiru = center.querySelector('input[name=iBiru]');
+
+center.addEventListener('input', function() {
+    const r = iMerah.value;
+    const g = iHijau.value;
+    const b = iBiru.value;
+    document.body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
 });
