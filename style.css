@@ -51,7 +51,7 @@ table {
 /* Suwit Jawa 2.0 */
 
 body {
-    background-image: url(img/bg.png);
+    /* background-image: url(img/bg.png); */
     font-family: arial;
 }
 h1 {
@@ -144,4 +144,28 @@ img {
 
 .gajah:active, .semut:active, .orang:active {
     top: 2px;
+}
+
+
+.kotak {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+}
+
+.merah {background-color: red;}
+.hijau {background-color: green;}
+.biru {background-color: blue;}
+
+.center {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    left: 400px;
+}
+
+.float {
+    float: left;
+    padding: 20px;
 }
